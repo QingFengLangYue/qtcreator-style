@@ -6,7 +6,7 @@
 ##安装和使用
 
 ####（1）配置代码编辑区域的配色方案
-先下载配置问价 vs2013_dark.xml，拷贝到QtCreator安装目录下的"QtCreator\share\qtcreator\styles"目录下。然后启动QtCreator打开"Tools"->"Options"，在"Text Editor"界面中的"Color Scheme"下拉框中选择"vs2013_dark"这个配色方案，点击"应用"即可生效，下次启动依然有效。
+先下载配置文件 vs2013_dark.xml，拷贝到QtCreator安装目录下的"QtCreator\share\qtcreator\styles"目录下。然后启动QtCreator打开"Tools"->"Options"，在"Text Editor"界面中的"Color Scheme"下拉框中选择"vs2013_dark"这个配色方案，点击"应用"即可生效，下次启动依然有效。
     
 设置之后的程序效果图：
 
