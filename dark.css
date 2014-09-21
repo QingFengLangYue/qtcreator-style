@@ -1,36 +1,41 @@
 QMainWindow, 
 QAbstractItemView,  
 QTreeView::branch, 
+QStackWidget,
 QTabBar::tab{
         color: #EAEAEA;
-        background: #333333; 
-        font-size: 9pt;
+        background: rgb(37, 37, 37); 
 }
 
 QAbstractItemView::item:selected {
         color: #EAEAEA;
-        background-color: #151515;
+        background-color: rgb(63,63,70);
+        border:none;
 }
 
+/* ScrollBar style */
 QScrollBar {
      border: none;
-     background: #333333;
+     background: rgb(62,62,62);
      height: 6px;
-     width: 6px;
+     width: 12px;
      margin: 0px;
 }
-
 QScrollBar::handle{
-     background: #494949;
+     background: rgb(104, 104, 104);
      min-width: 10px;
      min-height: 10px;
 }
-
+QScrollBar::handle:hover{
+     background: rgb(158, 158, 158);
+}
+QScrollBar::handle:hover:pressed{
+     background: rgb(239, 239, 239);
+}
 QScrollBar::add-line,  QScrollBar::sub-line {
      background: none;
      border: none;
 }
-
 QScrollBar::add-page, QScrollBar::sub-page {
      background: none;
 }
@@ -40,7 +45,6 @@ QTreeView::branch:closed:adjoins-item:has-children {
      margin: 6px;
      height: 6px;
      width: 6px;
-     border-radius: 3px;
 }
 
 QTabBar::tab:selected {
@@ -70,6 +74,27 @@ QToolBar {
      font-size: 9pt;
 }
 
+/* The code editor background */
 QPlainTextEdit {
-  background-color: #272822; /* This is the editor background */
+  background-color: rgb(30,30,30); 
+}
+
+QObject[windowTitle="File System"] QWidget 
+{
+    color: #EAEAEA;
+}
+
+/* search result panel */
+QObject[windowTitle="Search Results"] QWidget
+{
+    color: #FFFFFF;
+    background: rgb(30, 30, 30);
+}
+
+QWidget[windowTitle="Compile Output"],
+QWidget[windowTitle="Version Control"],
+QWidget[windowTitle="QML/JS Console"]
+{
+    color: #EAEAEA;
+    background: rgb(30, 30, 30);
 }
