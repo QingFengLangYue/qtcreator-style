@@ -7,7 +7,7 @@
   <style name="SearchResult" background="#555500"/>
   <style name="SearchScope" background="#1e1e1e"/>
   <style name="Parentheses" foreground="#ff5555" background="#333333"/>
-  <style name="CurrentLine" background="#2d2d2d"/>
+  <style name="CurrentLine" background="#707070"/>
   <style name="CurrentLineNumber" foreground="#aaaaaa" bold="true"/>
   <style name="Occurrences" background="#363636"/>
   <style name="Occurrences.Unused" foreground="#808000"/>
