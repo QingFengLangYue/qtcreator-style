@@ -18,6 +18,12 @@
 如果当前处于QtCreator程序目录，则输入：
 > qtcreator -stylesheet dark.css
 
+如果为了省事，可以这样做：
+	1，直接将dark.css放到安装目录的bin文件夹中
+	2，创建一个脚本文件，内容为/qt-qt5.0.0/Tools/QtCreator/bin/qtcreator -stylesheet /qt-qt5.0.0/Tools/QtCreator/bin/dark.css(注意：/qt-qt5.0.0/Tools/QtCreator是我的安装目录)，并设置可执行权限
+	3，创建该文件的链接到桌面。
+这样就可以在桌面直接双击执行了
+
 可以看到程序启动，并显示前面你所见到的效果。
 
 在Window上为了方便，可以给程序创建一个快捷方式，并添加一个启动参数，这样不用每次在命令行输入参数了。在QtCreator的快捷方式上点击右键属性，在Target一栏输入参数，这样下次通过该快捷方式启动QtCreator即可获得效果。
