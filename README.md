@@ -15,7 +15,7 @@
 这一步是可选的，经过第（1）步代码的编辑区域已经是VS2013深色主题风格了，但是其他区域（如项目列表、程序输出面板等）显示为白色背景，反差较大，如果将其调成黑色看起来更舒服。方法是：将下面文件dark.css拷贝到qtcreator程序所在的目录"QtCreator\bin"，然后在命令行启动QtCreator:
 格式如下：
 ```bash
-[path to qtcreator] -stylesheet [path to dark.css]   
+<path_to_qtcreator> -stylesheet <path_to_dark.css>   
 ```
 
 如果当前处于QtCreator程序目录，则输入：
